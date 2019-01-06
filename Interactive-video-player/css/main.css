@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.videoWrapper {
+    margin: 25px 0;
+}
+
+.interactiveCaptions p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 15px;
+}
+
+.highlight {
+    color: #1b39e2;
+    font-weight: 600;
+}
+
+
+/*************************
+MEDIA ELEMENT
+**************************/
+
+.mejs__controls .mejs__time-current, .mejs__controls .mejs__volume-current {
+    background: #1b39e2;
+}
+
+
+/*************************
+MEDIA QUERY
+**************************/
+
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    .interactiveCaptions p {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+}
